@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { tours, Product, TourKey } from "@/data/tours";
+import { tours } from "../data/tours";
+import type { Product, TourKey } from "../data/tours";
 
 export default function HomePage() {
   const [activeTourKey, setActiveTourKey] = useState<TourKey>("coiCorn");
